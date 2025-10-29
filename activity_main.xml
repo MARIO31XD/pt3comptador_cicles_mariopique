@@ -8,75 +8,70 @@
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/txtOnCreate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="onCreate() → s’ha executat 0 cops"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="38dp" />
+    <LinearLayout
+        android:layout_width="498dp"
+        android:layout_height="353dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="377dp"
+        tools:ignore="MissingConstraints">
 
-    <TextView
-        android:id="@+id/txtOnStart"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="onStart() → s’ha executat 0 cops"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="457dp" />
+        <TextView
+            android:id="@+id/txtOnCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="onCreate() → s’ha executat 0 cops"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/txtOnRestart"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="onRestart() → s’ha executat 0 cops"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="141dp" />
+        <TextView
+            android:id="@+id/txtOnDestroy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="onDestroy() → s’ha executat 0 cops"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/txtOnResume"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="onResume() → s’ha executat 0 cops"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="373dp" />
+        <TextView
+            android:id="@+id/txtOnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="onStart() → s’ha executat 0 cops"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/txtOnPause"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="onPause() → s’ha executat 0 cops"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="275dp" />
+        <TextView
+            android:id="@+id/txtOnResume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="onResume() → s’ha executat 0 cops"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/txtOnStop"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="onStop() → s’ha executat 0 cops"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="212dp" />
+        <TextView
+            android:id="@+id/txtOnPause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="onPause() → s’ha executat 0 cops"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/txtOnDestroy"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="onDestroy() → s’ha executat 0 cops"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="87dp" />
+        <TextView
+            android:id="@+id/txtOnStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="onStop() → s’ha executat 0 cops"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/txtOnRestart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="onRestart() → s’ha executat 0 cops"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
