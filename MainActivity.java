@@ -25,16 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView txtOnStop,txtOnCreate, txtOnPause, txtOnDestroy, txtOnResume, txtOnRestart, txtOnStart;
 
-
-
-
-
-
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
